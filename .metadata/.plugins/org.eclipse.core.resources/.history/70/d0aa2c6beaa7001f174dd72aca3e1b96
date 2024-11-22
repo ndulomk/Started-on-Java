@@ -1,0 +1,16 @@
+package ew;
+
+import java.util.Scanner;
+public class Hipotenusa {
+
+	public static void main(String[] args) {
+		
+		double x = 3.14;
+		double y = -18;
+		
+		double z = Math.max(x, y);
+		
+		System.out.println(z);
+	}
+
+}

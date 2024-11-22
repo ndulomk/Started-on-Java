@@ -1,0 +1,16 @@
+package defaultt;
+
+public class Ifstatement {
+
+	public static void main(String[] args) {
+		int age = 10;
+		if(age < 18) {
+			System.out.println("You can vote");
+		}
+		else if(age < 24 || age > 26) {
+			System.out.println("You can vote but fuck you need get a family");
+		}
+
+	}
+
+}

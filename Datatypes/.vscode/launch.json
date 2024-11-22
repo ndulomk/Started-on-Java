@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Datatypes",
+      "request": "launch",
+      "mainClass": "Datatypes/data.Datatypes",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "Fecthing",
+      "request": "launch",
+      "mainClass": "Datatypes/data.Fecthing",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "Variable",
+      "request": "launch",
+      "mainClass": "Datatypes/data.Variable",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "input",
+      "request": "launch",
+      "mainClass": "Datatypes/data.input",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "Aula2operators",
+      "request": "launch",
+      "mainClass": "Datatypes/ew.Aula2operators",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "Gui",
+      "request": "launch",
+      "mainClass": "Datatypes/ew.Gui",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "Hipotenusa",
+      "request": "launch",
+      "mainClass": "Datatypes/ew.Hipotenusa",
+      "projectName": "Datatypes"
+    },
+    {
+      "type": "java",
+      "name": "aula9hipo",
+      "request": "launch",
+      "mainClass": "Datatypes/ew.aula9hipo",
+      "projectName": "Datatypes"
+    }
+  ]
+}

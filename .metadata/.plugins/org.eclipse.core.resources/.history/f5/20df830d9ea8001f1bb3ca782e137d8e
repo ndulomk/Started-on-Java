@@ -1,0 +1,21 @@
+package defaultt;
+
+import java.util.Scanner;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("How much number you want to add?");
+		int count = scanner.nextInt();
+		int[] arr = new int[count];
+		for(int n = 0;n < count;n++) {
+			System.out.println("Increase an number");
+			int all = scanner.nextInt();
+			arr[n] = all;
+		}
+		System.out.println(arr.length);
+
+	}
+
+}

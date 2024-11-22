@@ -1,0 +1,14 @@
+package defaultt;
+
+public class arr {
+
+	public static void main(String[] args) {
+		
+		String[] car = {"Camaro", "Corvete", "Tesla"};
+		
+		car[0] = "Mustang";
+			
+		System.out.println(car[0]);
+	}
+
+}

@@ -1,0 +1,18 @@
+package defaultt;
+
+public class Aluguel {
+
+	public static void main(String[] args) {
+		
+		int dia = 8;
+		int km = 720;
+		int custoD = 60;
+		double custokm = 0.15;
+		double prod1 = (custoD * dia);
+		double prod2 = (custokm * km);
+		double total = prod1 * prod2;
+		System.out.println("the times of all is "+total);
+
+	}
+
+}

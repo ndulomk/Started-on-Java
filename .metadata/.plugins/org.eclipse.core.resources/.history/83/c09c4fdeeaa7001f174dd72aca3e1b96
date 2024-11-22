@@ -1,0 +1,18 @@
+package ew;
+
+import java.util.Scanner;
+public class Hipotenusa {
+
+	public static void main(String[] args) {
+		
+		double x = 3.14;
+		double y = -18;
+		
+		double min = Math.min(x, y);
+		double max = Math.max(x, y);
+		
+		System.out.println("The highest number between x and y is: "+max+"The number with less value is: " + min);
+		
+	}
+
+}

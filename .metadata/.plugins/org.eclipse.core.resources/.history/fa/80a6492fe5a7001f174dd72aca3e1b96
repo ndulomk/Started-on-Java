@@ -1,0 +1,14 @@
+package ew;
+
+public class Aula2operators {
+
+	public static void main(String[] args) {
+		
+		int friends = 10;
+		int circle = friends + 1;
+		friends -=1;
+		System.out.print(friends);
+
+	}
+
+}

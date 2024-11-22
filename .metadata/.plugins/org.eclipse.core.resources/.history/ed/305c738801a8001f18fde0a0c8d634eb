@@ -1,0 +1,19 @@
+package defaultt;
+
+import java.util.Random;
+import javax.swing.JOptionPane;
+
+public class AulaRandom {
+
+	public static void main(String[] args) {
+		
+		Random random = new Random();
+		
+		int x = random.nextInt();
+		
+		System.out.println(x);
+		JOptionPane.showMessageDialog(null, x);
+
+	}
+
+}

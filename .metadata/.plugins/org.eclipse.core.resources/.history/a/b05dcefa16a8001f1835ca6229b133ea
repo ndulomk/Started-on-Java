@@ -1,0 +1,12 @@
+package defaultt;
+
+public class arr {
+
+	public static void main(String[] args) {
+		
+		String[] car = {"Camaro", "Corvete", "Tesla"};
+			
+		System.out.println(car);
+	}
+
+}

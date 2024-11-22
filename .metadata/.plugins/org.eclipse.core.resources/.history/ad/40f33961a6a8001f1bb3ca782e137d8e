@@ -1,0 +1,31 @@
+package defaultt;
+
+import java.util.Scanner;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("How much number you want to add?");
+		int count = scanner.nextInt();
+		int[] arr = new int[count];
+		int soma = 0;
+		int maior = 0;
+		int menor = 0;
+		for(int n = 0;n < count;n++) {
+			System.out.println("Increase an number");
+			int all = scanner.nextInt();
+			arr[n] = all;
+			soma+=arr[n];
+			if(arr[n] > menor) {
+				menor = all;
+			}
+			
+		}
+		System.out.println("this array have "+arr.length+" values");
+		System.out.println("increseing all numbers we have "+soma);
+		System.out.println("the minor number is "+menor);
+
+	}
+
+}

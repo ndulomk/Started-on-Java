@@ -1,0 +1,25 @@
+package defaultt;
+
+import java.util.Random;
+
+public class arr {
+
+	public static void main(String[] args) {
+		
+		String[] car = {"Camaro", "Corvete", "Tesla"};
+		
+		car[0] = "Mustang";
+			
+		System.out.println(car.length);
+		
+		Random random = new Random();
+		
+		int x = random.nextInt(20);
+		for(int n = 0;n<=10;n++) {
+			int[] numbers = {x};
+			System.out.println(numbers);
+		}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package defaultt;
+
+public class Stringsmeth {
+
+	public static void main(String[] args) {
+		String name = "Edgar";
+		
+		boolean result = name.equals("edgar");
+		System.out.println(result);
+		
+
+	}
+
+}

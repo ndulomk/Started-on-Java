@@ -1,0 +1,1 @@
+isBlank a function that make know if an statement is empty
